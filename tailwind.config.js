@@ -10,15 +10,16 @@ module.exports = {
         Satoshilight: ["SatoshiLight", "sans-serif"],
         SatoshiLightItalic: ["SatoshiLightItalic", "sans-serif"],
         SatoshiItalic: ["SatoshiItalic", "sans-serif"],
-
       },
       colors: {
-        primary: "#131425",
-        offWhite: "#F6F7F8",
+        // primary: "#131425",
+        primary: "#FAF5EB",
+        // offWhite: "#F6F7F8",
+        offWhite: "#223A60",
       },
       fontSize: {
         landingTitle: "clamp(24px, 9.028vw, 175px)",
-        landingSub: "clamp(24px, 7.234vw, 125px)"
+        landingSub: "clamp(24px, 7.234vw, 125px)",
       },
     },
   },

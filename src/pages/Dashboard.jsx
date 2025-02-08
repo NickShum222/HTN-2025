@@ -8,7 +8,7 @@ export default function Dashboard() {
     <>
     {/* Layout of Main Dashboard */}
       <div className="bg-primary w-full min-h-[100dvh] flex flex-col z-[20] lg:px-[8%] md:px-[6%] px-[4%]">
-        <Landing />
+        {/* <Landing /> */}
         <Events /> 
         <Footer/>
       </div>
