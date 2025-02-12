@@ -16,7 +16,7 @@ const index = () => {
         target="_blank"
         className="text-[1em] font-Satoshi text-offWhite opacity-60 transition-all duration-300 ease-in hover:opacity-100 sm:-translate-x-1/2"
       >
-        Nick Shum 2024
+        Nick Shum 2025
       </a>
     </div>
   );

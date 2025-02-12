@@ -73,7 +73,7 @@ const EventCard = ({ event, setRelatedEvents, index, loggedIn }) => {
       custom={index}
       className="w-full flex flex-col justify-start items-start border-[2px] border-offWhite border-solid "
     >
-      <div className="w-full flex justify-between items-center border-b-[2px] border-offWhite border-solid p-3">
+      <div className="w-full flex justify-between items-center border-b-[2px] border-offWhite border-solid px-3 py-2">
         <div className="flex lg:flex-row flex-col justify-start lg:items-center items-start text-offWhite md:text-[30px] text-[20px] lg:leading-[1.1] leading-[1.2]">
           <h3 className="font-Satoshi ">{name}, </h3>
           <h3
@@ -81,7 +81,7 @@ const EventCard = ({ event, setRelatedEvents, index, loggedIn }) => {
               event_type === "activity"
                 ? "from-[#1af8fe] to-[#6ab1ff]"
                 : event_type === "workshop"
-                ? "from-[#f2a64a] to-[#f2ea4a]"
+                ? "from-[#f2a64a] to-[#ff6b4a]"
                 : "from-[#fd2df8] to-[#fd2d81]"
             } `}
           >
@@ -90,9 +90,9 @@ const EventCard = ({ event, setRelatedEvents, index, loggedIn }) => {
           </h3>
         </div>
         {permission === "public" ? (
-          <CiGlobe className="text-offWhite h-full lg:w-[4%] md:w-[6%] w-[7%]" />
+          <CiGlobe className="text-offWhite h-full lg:w-[3%] md:w-[6%] w-[7%]" />
         ) : (
-          <CiLock className="text-offWhite h-full lg:w-[4%] md:w-[6%] w-[7%]" />
+          <CiLock className="text-offWhite h-full lg:w-[3%] md:w-[6%] w-[7%]" />
         )}
         {/* <div className="text-white">{permission}</div> */}
       </div>
