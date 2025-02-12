@@ -149,7 +149,7 @@ const Events = () => {
   }, [events, selectedFilters, search, sorted, relatedEvents, currentUser]);
 
   return (
-    <div className=" min-h-[100dvh] w-full flex flex-col justify-start items-center relative z-10 pb-24">
+    <div className=" min-h-[100dvh] w-full flex flex-col justify-start items-center relative z-10 py-24">
       <div className="w-full border-b-[1px] border-offWhite border-solid py-2 flex sm:flex-row flex-col sm:justify-between justify-start sm:items-center items-start text-offWhite px-2 mb-6">
         <div className="font-Satoshibold tracking-tight leading-[1.2] lg:text-[45px] md:text-[40px] text-[38px]">
           Current Events

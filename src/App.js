@@ -8,7 +8,20 @@ import {
   Navigate,
 } from "react-router-dom";
 import { AuthProvider } from "./utils/AuthContext";
+import Lenis from "lenis";
+import { useEffect } from "react";
+
 function App() {
+    useEffect(() => {
+      const lenis = new Lenis();
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    }, []);
   return (
     <Router>
       {/* AuthProvider passes the user login state to prevent prop drilling */}
