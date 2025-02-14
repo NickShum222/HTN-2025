@@ -114,7 +114,7 @@ const Auth = () => {
           className="w-[10%] object-cover"
         />
         <div className="font-SatoshiMedium text-[48px] mt-4 bg-clip-text text-transparent bg-gradient-to-r from-[#F2A64A] via-[#FD2DF8] to-[#1AF8FE] from-[20%] via-[50%] to-[90%]">
-          Hack the North Events
+          Hackathon Global Inc.
         </div>
       </div>
       {/* Sign up / Log in Forms */}

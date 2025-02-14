@@ -26,7 +26,7 @@ const Index = () => {
       <a className="flex justify-center items-center" href="/" rel="noreferrer">
         <img src="./images/htn.svg" alt="Hack the North Logo" />
         <h3 className="font-bold text-offWhite text-[1.8em] mx-3 font-Satoshibold">
-          Events
+          Hackathon Global Inc. 
         </h3>
       </a>
       {currentUser ? (
